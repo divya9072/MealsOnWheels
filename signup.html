@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meals on wheels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="title">
+
+        <div class="">
+    
+    <nav class="navbar navbar-expand-lg navbar-Light">
+        <a class="navbar-brand" href=""><i class="iconT fas fa-truck"></i>_Meals On wheels</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">signin</a>
+            </li>
+          </ul>
+          <div class="nav-link">
+            <button type="button" class="btn btn-dark btn-lg download-button">Donate</button>
+
+          </div>
+      </nav>
+    <!--sign up-->
+            <div class="main" id="main">
+                <div class="header">
+                    <h5>SIGN UP WITH US</h5>
+
+                </div>
+                <div class="content">
+                    <form action="" id="form">
+                        <div class="form-group">
+                            <label for="name"> Name :</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">User name:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">E-mail:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Phone number:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Type:</label>
+                            <select name="" id="" class="form-control">
+                                <option value="">--Select--</option>
+                                <option value="">RESIDENTIAL</option>
+                                <option value="">RESTAURANT</option>
+                                <option value="">CAFE</option>
+                                <option value="">GROCERY STORES</option>
+                                <option value="">ANY OTHER</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Choose a Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Retype a Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn">Send OTP</button>
+                        <div class="form-group">
+                            <label for="">Enter OTP</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <button type="submit" class="btn">Sign up</button>
+                    </form>
+                </div>
+                <div class="footer">
+                    <button type="button" id="close" onclick="closeForm()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script>
+    function closeForm()
+    {
+        document.getElementById("main").style.display = "none"
+    }
+</script>
+
+</html>
