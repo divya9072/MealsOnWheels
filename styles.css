@@ -1,0 +1,238 @@
+body {
+    text-align: center;
+
+  }
+
+  /* testimonials section */
+  .Testimonial-image {
+    width: 35%;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    right: 28rem;
+  }
+
+  .testimonials {
+    background-color: #f1f3de;
+    height: 700px;
+  }
+
+  /*truck*/
+  .iconT {
+    color: #006a71;
+    font-size: 3rem;
+  }
+
+  .iconH {
+    color: #cfe5cf;
+    font-size: 5rem;
+  }
+
+  .iconH:hover {
+    color: #006a71;
+  }
+
+  h3 {
+    font-family: "Montserrat-Light";
+    color: black;
+    font-style: bold;
+    font-size: 3rem;
+    position: absolute;
+    right: 30rem;
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  /* navigation bar */
+  .navbar {
+   padding: 0 0 2.5rem;
+    background-color: #cfe5cf;
+  }
+
+  .navbar-brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+    color: #62760c;
+  }
+
+  .navbar-brand:hover {
+    color: #006a71;
+  }
+
+  .nav-item {
+    padding: 0 28px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    color: #535204;
+    font-family: "Montserrat-Light";
+  }
+
+  /* features section */
+  .features {
+    background-color: WHITE;
+    position: relative;
+    z-index: 1;
+    height: 580px;
+  }
+
+  .pop {
+    margin-left: 0;
+    width: 90%;
+    position: absolute;
+    left: 8rem;
+    margin-top: 9rem;
+  }
+
+  .Text {
+    position: absolute;
+    right: 4rem;
+    bottom: 14rem;
+    font-family: " Montserrat-Light";
+    color: black;
+    font-size: 3rem;
+  }
+
+  .TextBut {
+    position: absolute;
+    right: 23rem;
+    bottom: 9rem;
+    font-family: " Montserrat-Light";
+    color: black;
+    font-size: 1.5rem;
+  }
+
+  /*dootes*/
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+    border-width: 5px;
+    border-color: #006a71;
+    position: relative;
+    left: 17rem;
+    bottom: 27rem;
+  }
+
+  /*about SECTION*/
+  .ABOUT {
+    height: 550px;
+  }
+
+  .aboutus {
+    background-color: #ebecf1;
+   position: absolute;
+   width: 40%;
+   height: 60%;
+  }
+
+  h1 {
+    font-family: "Montserrat-Light";
+    color: #006a71;
+    font-style: bold;
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+
+  .aboutdetails {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #596e79;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+
+  /*CENTRE IMG*/
+  .title-image {
+    position: absolute;
+    align-items: center;
+    left: 37rem;
+    height: 720px;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  /*WORK SECTION*/
+  .work {
+    background-color: #cfe5cf;
+ position: absolute;
+ width: 28.6%;
+ height: 99%;
+ right: 0;
+  }
+
+  /*STILL SECTION*/
+  .still {
+    background-color: #fbe2e5;
+  position: absolute;
+  width: 39.9%;
+  height: 41%;
+  margin-top: 26rem;
+  color: #e7305b;
+  }
+
+  .joinus {
+    background-color: #ebecf1;
+    position: absolute;
+    right: 0;
+    margin-top: 33rem;
+    width: 28.6%;
+    height: 26.5%;
+  }
+
+  /*BUTTON*/
+  .learnbut {
+    position: absolute;
+    right: 8rem;
+    bottom: 4rem;
+    font-family: " Montserrat-Light";
+    font-size: 1.2rem;
+    border: 2px solid #008CBA;
+  }
+
+
+  /*JOIN SECTION*/
+  .tagline {
+    background-color: white;
+    position: relative;
+    top: 44rem;
+    height: 500px;
+  }
+
+  .joinheading {
+    color: #1b262c;
+    font-style: bold;
+    text-align: center;
+    font-size: 5rem;
+    position: absolute;
+    right: 20rem;
+    bottom: 12rem;
+  }
+
+  .joinpic {
+    width: 70%;
+    height: 500px;
+    margin-top: 1rem;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+    font-size: 2rem;
+  }
+
+  /*FOOTER*/
+  .cont {
+    height: 500px;
+    background-color: #cfe5cf;
+    position: relative;
+    top: 44rem;
+    height: 142px;
+    margin-top: 2rem;
+  }
